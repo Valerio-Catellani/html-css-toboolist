@@ -23,12 +23,32 @@ body {
   background-color: rgb(27, 167, 214);
 }
 
+.bg_purple {
+  background-color: rgb(130, 36, 184);
+}
+
+.bg_acquamarine {
+  background-color: aquamarine;
+}
+
+.bg_orange {
+  background-color: orange;
+}
+
+.bg_pink {
+  background-color: rgb(194, 89, 171);
+}
+
+.bg_lightgreen {
+  background-color: rgb(78, 131, 43);
+}
+
 .white_color {
   color: white;
 }
 
-.grey_color {
-  color: grey;
+.grey_transparent_color {
+  color: rgba(128, 128, 128, 0.3);
 }
 
 .green_color {
@@ -40,7 +60,7 @@ body {
 }
 
 .border_grey {
-  border: 1px solid grey;
+  border: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 .border_green {
@@ -71,25 +91,27 @@ h1 {
 /************* MAIN **************/
 
 main {
-  background-color: cadetblue;
+  background-color: white;
   width: 70%;
-  margin: 30px auto;
+  margin: 40px auto;
   border-radius: 10px;
 }
 
 #user_bar {
-
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  margin-bottom: 30px;
 }
 
 .user_button {
+  font-size: 0.8rem;
+  font-weight: 600;
   margin: 3px;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 ul {
@@ -104,4 +126,11 @@ ul {
   text-align: center;
   font-size: 0.5rem;
   line-height: 15px;
+}
+
+.marked {
+  border-radius: 30px;
+  font-size: 0.6rem;
+  margin: 5px;
+  padding: 0 20px;
 }
