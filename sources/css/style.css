@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/************* UTILITY **************/
+
+.element_line {
+  display: inline-block;
+}
+
+.element_padding {
+  padding: 10px 40px;
+}
+
+.bg_lightblue {
+  background-color: rgb(27, 167, 214);
+}
+
+.white_color {
+  color: white;
+}
+
+.grey_color {
+  color: grey;
+}
+
+.green_color {
+  color: green;
+}
+
+.red_color {
+  color: red;
+}
+
+.border_grey {
+  border: 1px solid grey;
+}
+
+.border_green {
+  border: 1px solid green;
+}
+
+.border_red {
+  border: 1px solid red;
+}
+
+
+
+/************* HEADER **************/
+
+header {
+  background-color: white;
+  width: 100%;
+}
+
+#logo,
+h1 {
+  font-weight: 800;
+  vertical-align: middle;
+}
+
+
+
+/************* MAIN **************/
+
+main {
+  background-color: cadetblue;
+  width: 70%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+#user_bar {
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.user_button {
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+ul {
+  line-height: 2rem;
+  list-style: none;
+}
+
+.check {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 0.5rem;
+  line-height: 15px;
+}
